@@ -57,6 +57,7 @@ adb shell pm uninstall -k --user 0 com.google.android.gms.supervision # System P
 adb shell pm uninstall -k --user 0 com.android.bookmarkprovider # Bookmark Provider
 adb shell pm uninstall -k --user 0 com.android.providers.userdictionary # User Dictionary
 adb shell pm uninstall -k --user 0 com.oplus.camera # OnePlus Camera
+adb shell pm uninstall -k --user 0 net.oneplus.weather # OnePlus Weather
 
 # Random Apps
 adb shell pm uninstall -k --user 0 com.netflix.mediaclient # Netflix
