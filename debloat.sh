@@ -15,6 +15,7 @@ adb shell pm uninstall -k --user 0 com.google.android.apps.tachyon # Google Meet
 adb shell pm uninstall -k --user 0 com.google.android.apps.subscriptions.red # Google One
 adb shell pm uninstall -k --user 0 com.google.ar.lens # Google Lens
 adb shell pm uninstall -k --user 0 com.google.android.inputmethod.latin # Gboard
+adb shell pm uninstall -k --user 0 com.google.android.apps.messaging # Google Messages
 
 # System apps and services
 adb shell pm uninstall -k --user 0 com.google.android.apps.restore # Android Switch
@@ -55,6 +56,7 @@ adb shell pm uninstall -k --user 0 com.android.hotwordenrollment.okgoogle # Goog
 adb shell pm uninstall -k --user 0 com.google.android.gms.supervision # System Parental Controls
 adb shell pm uninstall -k --user 0 com.android.bookmarkprovider # Bookmark Provider
 adb shell pm uninstall -k --user 0 com.android.providers.userdictionary # User Dictionary
+adb shell pm uninstall -k --user 0 com.oplus.camera # OnePlus Camera
 
 # Random Apps
 adb shell pm uninstall -k --user 0 com.netflix.mediaclient # Netflix
